@@ -37,3 +37,14 @@ footer {
     background-color: goldenrod;
     padding: 10px;
 }
+
+@media screen and (max-width: 800px){
+    main {
+    grid-template-areas: 
+    "h"
+    "ar"
+    "as"
+    "n"
+    "f";
+}
+}
