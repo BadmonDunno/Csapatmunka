@@ -20,6 +20,17 @@ nav {
     padding: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+}
+
+a:hover {
+    color: blue;
+    background-color: black;
+}
+
 article {
     grid-area: ar;
     background-color: coral;
