@@ -10,24 +10,30 @@ main {
 header {
     grid-area: h;
     background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
 }
 
 nav {
     grid-area: n;
     background-color: cadetblue;
+    padding: 10px;
 }
 
 article {
     grid-area: ar;
     background-color: coral;
+    padding: 10px;
 }
 
 aside {
     grid-area: as;
     background-color: darkolivegreen;
+    padding: 10px;
 }
 
 footer {
     grid-area: f;
     background-color: goldenrod;
+    padding: 10px;
 }
