@@ -1,0 +1,33 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "n ar as"
+    "f f f";
+}
+
+header {
+    grid-area: h;
+    background-color: antiquewhite;
+}
+
+nav {
+    grid-area: n;
+    background-color: cadetblue;
+}
+
+article {
+    grid-area: ar;
+    background-color: coral;
+}
+
+aside {
+    grid-area: as;
+    background-color: darkolivegreen;
+}
+
+footer {
+    grid-area: f;
+    background-color: goldenrod;
+}
