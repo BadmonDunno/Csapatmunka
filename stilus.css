@@ -9,20 +9,25 @@ main {
 
 header {
     grid-area: h;
+    background-color: antiquewhite;
 }
 
 nav {
     grid-area: n;
+    background-color: cadetblue;
 }
 
 article {
     grid-area: ar;
+    background-color: coral;
 }
 
 aside {
     grid-area: as;
+    background-color: darkolivegreen;
 }
 
 footer {
     grid-area: f;
+    background-color: goldenrod;
 }
